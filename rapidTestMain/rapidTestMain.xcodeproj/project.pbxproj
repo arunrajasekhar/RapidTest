@@ -19,6 +19,7 @@
 		F95FC68F1744BE81004CC902 /* AViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F95FC68E1744BE81004CC902 /* AViewController.m */; };
 		F95FC6921744BE81004CC902 /* AViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = F95FC6901744BE81004CC902 /* AViewController_iPhone.xib */; };
 		F95FC6951744BE81004CC902 /* AViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = F95FC6931744BE81004CC902 /* AViewController_iPad.xib */; };
+		F9C0C93A175DE6A8006B59A2 /* AYcontroller.m in Sources */ = {isa = PBXBuildFile; fileRef = F9C0C939175DE6A8006B59A2 /* AYcontroller.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,6 +40,8 @@
 		F95FC68E1744BE81004CC902 /* AViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AViewController.m; sourceTree = "<group>"; };
 		F95FC6911744BE81004CC902 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/AViewController_iPhone.xib; sourceTree = "<group>"; };
 		F95FC6941744BE81004CC902 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/AViewController_iPad.xib; sourceTree = "<group>"; };
+		F9C0C938175DE6A8006B59A2 /* AYcontroller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AYcontroller.h; sourceTree = "<group>"; };
+		F9C0C939175DE6A8006B59A2 /* AYcontroller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AYcontroller.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,6 +95,8 @@
 				F95FC6901744BE81004CC902 /* AViewController_iPhone.xib */,
 				F95FC6931744BE81004CC902 /* AViewController_iPad.xib */,
 				F95FC67C1744BE81004CC902 /* Supporting Files */,
+				F9C0C938175DE6A8006B59A2 /* AYcontroller.h */,
+				F9C0C939175DE6A8006B59A2 /* AYcontroller.m */,
 			);
 			path = rapidTestMain;
 			sourceTree = "<group>";
@@ -181,6 +186,7 @@
 				F95FC6821744BE81004CC902 /* main.m in Sources */,
 				F95FC6861744BE81004CC902 /* AAppDelegate.m in Sources */,
 				F95FC68F1744BE81004CC902 /* AViewController.m in Sources */,
+				F9C0C93A175DE6A8006B59A2 /* AYcontroller.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -313,6 +319,7 @@
 				F95FC69A1744BE81004CC902 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
