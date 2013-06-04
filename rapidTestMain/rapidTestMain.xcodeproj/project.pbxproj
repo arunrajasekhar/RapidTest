@@ -21,6 +21,8 @@
 		F95FC6951744BE81004CC902 /* AViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = F95FC6931744BE81004CC902 /* AViewController_iPad.xib */; };
 		F95FC69E1744BF46004CC902 /* AXFeatureViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F95FC69C1744BF46004CC902 /* AXFeatureViewController.m */; };
 		F95FC69F1744BF46004CC902 /* AXFeatureViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F95FC69D1744BF46004CC902 /* AXFeatureViewController.xib */; };
+		F95FC6A317460005004CC902 /* ATabularViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F95FC6A117460005004CC902 /* ATabularViewController.m */; };
+		F95FC6A417460005004CC902 /* ATabularViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F95FC6A217460005004CC902 /* ATabularViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -44,6 +46,9 @@
 		F95FC69B1744BF46004CC902 /* AXFeatureViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AXFeatureViewController.h; path = rapidTestMain/AXFeatureViewController.h; sourceTree = "<group>"; };
 		F95FC69C1744BF46004CC902 /* AXFeatureViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AXFeatureViewController.m; path = rapidTestMain/AXFeatureViewController.m; sourceTree = "<group>"; };
 		F95FC69D1744BF46004CC902 /* AXFeatureViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = AXFeatureViewController.xib; path = rapidTestMain/AXFeatureViewController.xib; sourceTree = "<group>"; };
+		F95FC6A017460005004CC902 /* ATabularViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ATabularViewController.h; path = rapidTestMain/ATabularViewController.h; sourceTree = "<group>"; };
+		F95FC6A117460005004CC902 /* ATabularViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ATabularViewController.m; path = rapidTestMain/ATabularViewController.m; sourceTree = "<group>"; };
+		F95FC6A217460005004CC902 /* ATabularViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ATabularViewController.xib; path = rapidTestMain/ATabularViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +68,9 @@
 		F95FC6691744BE81004CC902 = {
 			isa = PBXGroup;
 			children = (
+				F95FC6A017460005004CC902 /* ATabularViewController.h */,
+				F95FC6A117460005004CC902 /* ATabularViewController.m */,
+				F95FC6A217460005004CC902 /* ATabularViewController.xib */,
 				F95FC69B1744BF46004CC902 /* AXFeatureViewController.h */,
 				F95FC69C1744BF46004CC902 /* AXFeatureViewController.m */,
 				F95FC69D1744BF46004CC902 /* AXFeatureViewController.xib */,
@@ -177,6 +185,7 @@
 				F95FC6921744BE81004CC902 /* AViewController_iPhone.xib in Resources */,
 				F95FC6951744BE81004CC902 /* AViewController_iPad.xib in Resources */,
 				F95FC69F1744BF46004CC902 /* AXFeatureViewController.xib in Resources */,
+				F95FC6A417460005004CC902 /* ATabularViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -191,6 +200,7 @@
 				F95FC6861744BE81004CC902 /* AAppDelegate.m in Sources */,
 				F95FC68F1744BE81004CC902 /* AViewController.m in Sources */,
 				F95FC69E1744BF46004CC902 /* AXFeatureViewController.m in Sources */,
+				F95FC6A317460005004CC902 /* ATabularViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -323,6 +333,7 @@
 				F95FC69A1744BE81004CC902 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
